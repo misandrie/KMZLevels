@@ -1,4 +1,4 @@
-# KZLevels
+# KZLevels - Misandrie's fork
 Kaylie's Z Levels. This is an implementation of Z Level view handling, alongside a hook-based partial implementation of
 Z-level gravity and structural integrity intended for use by RobustToolbox game developers to implement layering
 mechanics into their games.
@@ -12,3 +12,10 @@ keep layer count around 2-4, which also helps with client performance.
 
 ## Future improvements
 - [ ]
+
+## Todo
+- [ ] Ladders
+- [ ] Transition markers
+- [ ] Mapping tooling
+- - [ ] Including mapping checks
+- [ ] Tests
