@@ -8,10 +8,10 @@
 
 using System;
 using System.Diagnostics.CodeAnalysis;
-using Content.KZlevels.Shared.Components;
+using Content.KayMisaZlevels.Shared.Components;
 using Robust.Shared.GameObjects;
 
-namespace Content.KZlevels.Shared.Systems;
+namespace Content.KayMisaZlevels.Shared.Systems;
 
 /// <summary>
 /// This handles Z stacks, including their construction and destruction.
@@ -53,7 +53,7 @@ public abstract class SharedZStackSystem : EntitySystem
         var xform = Transform(ent);
         if (TryComp(xform.MapUid, out ZStackMemberComponent? comp))
         {
-            stack = new(comp.Tracker, Comp<ZStackTrackerComponent>(comp.Tracker));
+            stack = new Entity<ZStackTrackerComponent>(comp.Tracker, Comp<ZStackTrackerComponent>(comp.Tracker));
             return true;
         }
 

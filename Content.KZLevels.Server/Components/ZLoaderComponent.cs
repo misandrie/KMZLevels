@@ -10,7 +10,7 @@
 using Robust.Shared.GameObjects;
 using Robust.Shared.Player;
 
-namespace Content.KZlevels.Server.Components;
+namespace Content.KayMisaZlevels.Server.Components;
 
 /// <summary>
 /// This is used for loading the world for the given client.

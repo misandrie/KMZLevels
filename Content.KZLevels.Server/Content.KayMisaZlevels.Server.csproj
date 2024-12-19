@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../Content.KZLevels.Shared/Content.KZLevels.Shared.csproj"/>
+    <ProjectReference Include="..\Content.KZLevels.Shared\Content.KayMisaZlevels.Shared.csproj" />
     <ProjectReference Include="$(RobustToolboxLocation)/Robust.Shared.Maths/Robust.Shared.Maths.csproj" />
     <ProjectReference Include="$(RobustToolboxLocation)/Robust.Shared/Robust.Shared.csproj" />
     <ProjectReference Include="$(RobustToolboxLocation)/Robust.Server/Robust.Server.csproj" />

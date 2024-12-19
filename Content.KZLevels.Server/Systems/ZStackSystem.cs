@@ -7,9 +7,9 @@
  */
 
 using System.Diagnostics.CodeAnalysis;
-using Content.KZlevels.Server.Components;
-using Content.KZlevels.Shared.Components;
-using Content.KZlevels.Shared.Systems;
+using Content.KayMisaZlevels.Server.Components;
+using Content.KayMisaZlevels.Shared.Components;
+using Content.KayMisaZlevels.Shared.Systems;
 using Robust.Server.GameObjects;
 using Robust.Shared.GameObjects;
 using Robust.Shared.IoC;
@@ -17,7 +17,7 @@ using Robust.Shared.Map;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 
-namespace Content.KZlevels.Server.Systems;
+namespace Content.KayMisaZlevels.Server.Systems;
 
 public sealed partial class ZStackSystem : SharedZStackSystem
 {

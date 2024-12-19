@@ -6,7 +6,7 @@
  * defined by the Mozilla Public License, v. 2.0.
  */
 
-using Content.KZlevels.Server.Systems;
+using Content.KayMisaZlevels.Server.Systems;
 using Robust.Server.GameObjects;
 using Robust.Shared.GameObjects;
 using Robust.Shared.IoC;
@@ -14,7 +14,7 @@ using Robust.Shared.Map;
 using Robust.Shared.Toolshed;
 using Robust.Shared.Toolshed.Syntax;
 
-namespace Content.KZlevels.Server;
+namespace Content.KayMisaZlevels.Server;
 
 [ToolshedCommand]
 public sealed class ZStackCommand : ToolshedCommand

@@ -6,9 +6,9 @@
  * defined by the Mozilla Public License, v. 2.0.
  */
 
-using Content.KZlevels.Shared.Systems;
+using Content.KayMisaZlevels.Shared.Systems;
 
-namespace Content.KZlevels.Client;
+namespace Content.KayMisaZlevels.Client;
 
 public sealed class ZStackSystem : SharedZStackSystem
 {

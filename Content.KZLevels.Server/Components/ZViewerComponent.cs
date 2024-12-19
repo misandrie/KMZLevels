@@ -4,13 +4,13 @@
  * file, You can obtain one at https://mozilla.org/MPL/2.0/.
  * This Source Code Form is "Incompatible With Secondary Licenses", as
  * defined by the Mozilla Public License, v. 2.0.
- * /
+*/
 
 
 using System.Collections.Generic;
 using Robust.Shared.GameObjects;
 
-namespace Content.KZlevels.Server.Components;
+namespace Content.KayMisaZlevels.Server.Components;
 
 /// <summary>
 /// This is used for tracking Z Level viewers, which handle ensuring a client can view everything above and below it.

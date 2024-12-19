@@ -25,7 +25,7 @@ using Robust.Shared.ViewVariables;
 using SixLabors.ImageSharp.PixelFormats;
 using Logger = Robust.Shared.Log.Logger;
 
-namespace Content.KZlevels.Client;
+namespace Content.KayMisaZlevels.Client;
 
 /// <summary>
 ///     Viewport control that has a fixed viewport size and scales it appropriately.

@@ -4,17 +4,17 @@
  * file, You can obtain one at https://mozilla.org/MPL/2.0/.
  * This Source Code Form is "Incompatible With Secondary Licenses", as
  * defined by the Mozilla Public License, v. 2.0.
- * /
+ */
 
 using System.Collections.Generic;
-using Content.KZlevels.Shared.Components;
+using Content.KayMisaZlevels.Shared.Components;
 using Robust.Shared.Configuration;
 using Robust.Shared.GameObjects;
 using Robust.Shared.IoC;
 using Robust.Shared.Map;
 using Robust.Shared.Physics.Systems;
 
-namespace Content.KZlevels.Shared.Systems;
+namespace Content.KayMisaZlevels.Shared.Systems;
 
 /// <summary>
 ///     This handles breaking your legs.
@@ -31,6 +31,7 @@ namespace Content.KZlevels.Shared.Systems;
 /// <remarks>
 ///     This does not handle making grids fall.
 /// </remarks>
+
 public sealed class ZPhysicsSystem : EntitySystem
 {
     [Dependency] private readonly SharedZStackSystem _zStack = default!;
@@ -43,13 +44,13 @@ public sealed class ZPhysicsSystem : EntitySystem
     public override void Initialize()
     {
         SubscribeLocalEvent((Entity<KZPhysicsComponent> ent, ref MoveEvent args) => OnPossiblyFalling(ent, ref args));
-        if (_cfg.GetCVar(KZLevelsCVars.ProcessAllPhysicsObjects))
+        if (_cfg.GetCVar(KMZLevelsCVars.ProcessAllPhysicsObjects))
             _xform.OnGlobalMoveEvent += XformOnOnGlobalMoveEvent;
     }
 
     public override void Shutdown()
     {
-        if (_cfg.GetCVar(KZLevelsCVars.ProcessAllPhysicsObjects))
+        if (_cfg.GetCVar(KMZLevelsCVars.ProcessAllPhysicsObjects))
             _xform.OnGlobalMoveEvent -= XformOnOnGlobalMoveEvent;
     }
 

@@ -8,10 +8,10 @@
 
 using Robust.Shared.Configuration;
 
-namespace Content.KZlevels.Shared;
+namespace Content.KayMisaZlevels.Shared;
 
 [CVarDefs]
-public static class KZLevelsCVars
+public static class KMZLevelsCVars
 {
     public static readonly CVarDef<bool> ProcessAllPhysicsObjects = CVarDef.Create("kzlevels.process_all_physics_objects",
         true,

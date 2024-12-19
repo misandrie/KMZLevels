@@ -6,12 +6,12 @@
  * defined by the Mozilla Public License, v. 2.0.
  */
 
-using Content.KZlevels.Server.Components;
+using Content.KayMisaZlevels.Server.Components;
 using Robust.Shared.GameObjects;
 using Robust.Shared.Map;
 using Robust.Shared.Player;
 
-namespace Content.KZlevels.Server.Systems;
+namespace Content.KayMisaZlevels.Server.Systems;
 
 public sealed partial class ZStackSystem
 {

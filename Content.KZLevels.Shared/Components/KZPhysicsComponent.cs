@@ -8,7 +8,7 @@
 
 using Robust.Shared.GameObjects;
 
-namespace Content.KZlevels.Shared.Components;
+namespace Content.KayMisaZlevels.Shared.Components;
 
 /// <summary>
 /// This is used for objects affected by the sheer power of gravity across Z levels.
