@@ -14,7 +14,7 @@ namespace Content.KayMisaZlevels.Shared.Components;
 /// This is used for objects affected by the sheer power of gravity across Z levels.
 /// </summary>
 [RegisterComponent]
-public sealed partial class KZPhysicsComponent : Component
+public sealed partial class KMZPhysicsComponent : Component
 {
 
 }

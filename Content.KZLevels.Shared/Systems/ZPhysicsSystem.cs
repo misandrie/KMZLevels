@@ -43,7 +43,7 @@ public sealed class ZPhysicsSystem : EntitySystem
     /// <inheritdoc/>
     public override void Initialize()
     {
-        SubscribeLocalEvent((Entity<KZPhysicsComponent> ent, ref MoveEvent args) => OnPossiblyFalling(ent, ref args));
+        SubscribeLocalEvent((Entity<KMZPhysicsComponent> ent, ref MoveEvent args) => OnPossiblyFalling(ent, ref args));
         if (_cfg.GetCVar(KMZLevelsCVars.ProcessAllPhysicsObjects))
             _xform.OnGlobalMoveEvent += XformOnOnGlobalMoveEvent;
     }

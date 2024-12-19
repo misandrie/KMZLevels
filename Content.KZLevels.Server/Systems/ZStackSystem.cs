@@ -27,6 +27,7 @@ public sealed partial class ZStackSystem : SharedZStackSystem
     public override void Initialize()
     {
         base.Initialize();
+
         SubscribeLocalEvent<PlayerAttachedEvent>(OnPlayerAttached);
         SubscribeLocalEvent<PlayerDetachedEvent>(OnPlayerDetached);
         SubscribeLocalEvent<ZLoaderComponent, ComponentStartup>(ZLoaderStart);
